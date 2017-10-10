@@ -1,0 +1,138 @@
+
+body{
+	background-color:#eff5f5;
+	font-family: "Trebuchet MS";
+}
+
+#field{
+	background-color: #ccc;
+	display: none;
+	margin: auto;
+	color: #373c4f;
+	text-align: center;
+	position: relative;
+}
+
+#square{
+	border: 1px solid black;
+}
+#start_page {
+	
+	text-align: center;
+}
+
+.red{
+	color:red;
+}
+
+h1,h2,h3,a {
+	text-align: center;
+}
+
+h1{
+	font-family: "Tahoma";
+	text-transform: uppercase;
+}
+
+h1,h2,h3{
+	color: #383838;
+}
+
+h3,h2{
+	margin: 0;
+}
+
+.score_all{
+	color:#688ecc;
+}
+
+input{
+	opacity: 1;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 12px 20px;
+	border: 2px solid #ccc;
+	color:#c4c4c4;
+	font-weight: bold;
+	margin: auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+	width: 20%;
+}
+
+input::placeholder{
+	color:#ccc;
+}
+
+input[type=text]:focus {
+    border: 2px solid #688ecc;
+    color:#688ecc;
+    outline: 0;
+
+}
+
+a{	
+	
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	color: #969696;
+	font-size: 1.25rem;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+a:hover{
+
+	background-color: #688ecc;
+	color:white;
+
+
+}
+
+table{
+	font-weight: bold;
+	color: #373c4f;
+	margin: 0 auto;
+	border: none;
+	background-color: white;
+	width: 20%;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+table td{ 
+	border: none 
+}
+
+
+table td:last-child{
+  text-align: right;
+}
+
+table td:first-child{
+  width: 10%;
+
+}
+
+table td + td{
+	text-align: left;
+}
+
+
+@media only screen and (max-width: 900px) {
+    table,a {
+        font-size: 0.75rem;    }
+
+    h1 { font-size: 0.9rem; }
+    h2 { font-size: 0.8rem }
+    h3 { font-size: 0.75rem; }
+
+    table,input{
+    	width: 70%;
+    }
+}
